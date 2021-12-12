@@ -1,0 +1,24 @@
+body {
+  background-color: snow;
+  /*remember to end with ';'*/
+}
+
+hr {
+  border-style: dotted none none;
+  /*When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom*/
+  /*because by default the hr is set with styles so when changing anything the style has to be changed accordingly too.*/
+  /*refer to "border" and "border style"*/
+  border-top: 13px dotted LightGrey;
+  /*width, style, color*/
+  width: 5%;
+  /*width and border width are different. width is the width of the box not the border.*/
+  /*alternative:
+    border-color: LightGrey;
+    border-width: 13px;
+    border-top-style: dotted;*/
+}
+
+h1, h2, h3 {
+  color: #93B5C6;
+  font-family: fantasy, serif;
+}
